@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Serif';
+    src: url('C:\Users\shashank\Desktop\Work\fonts\Young_Serif', sans-serif);
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width:  1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    size: fixed;
+
+}
+
+.container .left_side
+{
+    position:relative;
+    background: #003147;
+    padding: 40px;
+    
+    
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imageBox
+{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ overflow: hidden;
+}
+
+.profileText .imageBox img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span
+{   
+    
+    font-size: 0.8em;
+    font-weight: 300;
+    
+}
+
+.title
+{
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.contactInfo
+{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.contactInfo ul
+{
+    padding-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.contactInfo ul li
+{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.list li
+{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.education
+{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.education ul 
+{
+    list-style:none;
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+    
+
+    
+}
+
+.education ul li h5
+{
+    font-weight: bolder;
+    font-family:sans-serif ;
+    color: #03a9f4;
+}
+
+.education ul li h4
+{
+    color: #fff;
+    font-weight: 200px;
+}
+
+
+.education ul li h5, h4
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+    
+    
+}
+
+.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.education h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.education li h4 text
+{
+    font-weight: 300;
+    color: red;
+}
+
+.litext 
+{
+    font-weight: 300;
+    color: red;
+}
+
+
+.languages ul
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin:10px 0;
+    word-spacing: normal;
+    
+}
+
+
+
+.text 
+{
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.container right_side
+{
+    position:relative;
+    background: white;
+    padding: 40px;
+}
